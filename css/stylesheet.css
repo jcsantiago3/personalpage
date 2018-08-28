@@ -1,0 +1,45 @@
+html,body{
+    margin: 0;
+}
+.nav{
+    height: 50px;
+    background-color: #272727;
+}
+
+.header{
+    height: 500px;
+    background-color: indianred;
+    box-shadow: 0 5px 50px;
+}
+.circle{
+    width: 235px;
+    height: 235px;
+    border-radius: 255px;
+    background-color: white;
+    
+}
+.contents{
+    height: 300px;
+    border-bottom: 1px solid black;
+}
+
+.footer{
+    height: 100px;
+    background-color: #272727;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    grid-gap: 1em;
+    padding: 1em 0;
+}
+
+.griditem{
+    background-color: #eee;
+    padding: 1em;
+}
+.griditem:nth-child(odd){
+    background-color: #ddd;
+    padding: 1em;
+}
