@@ -19,8 +19,10 @@ html,body{
     
 }
 .contents{
-    height: 300px;
+    min-height: 450px;
     border-bottom: 1px solid black;
+    word-wrap: normal;
+    padding: 2% 0;
 }
 
 .footer{
@@ -42,4 +44,8 @@ html,body{
 .griditem:nth-child(odd){
     background-color: #ddd;
     padding: 1em;
+}
+
+.flexbox{
+    display: flex;
 }
